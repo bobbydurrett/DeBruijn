@@ -6,7 +6,4 @@ The first 130 digits of the de Bruijn sequence are: 0000100020003000400050006000
 The last 130 digits of the de Bruijn sequence are: 8976898689969697769786979698769886989699769986999777787779778877897798779978787978887889789878997979887989799879998888988998989999
  
 Validating the deBruijn sequence:
-  3 errors found:
-  PIN number 9000  missing
-  PIN number 9900  missing
-  PIN number 9990  missing
+  No errors found

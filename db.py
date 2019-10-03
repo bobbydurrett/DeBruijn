@@ -49,6 +49,8 @@ def validate(db):
     
     """
     
+    dbwithwrap = db+db[0:3]
+    
     digits = '0123456789'
     
     errorstrings = []
@@ -58,7 +60,7 @@ def validate(db):
             for d3 in digits:
                 for d4 in digits:
                     teststring = d1+d2+d3+d4
-                    if teststring not in db:
+                    if teststring not in dbwithwrap:
                         errorstrings.append(teststring)
                         
     if len(errorstrings) > 0:
