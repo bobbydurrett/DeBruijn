@@ -81,7 +81,14 @@ print("The last 130 digits of the de Bruijn sequence are: "+db[-130:])
 print(" ")
 print("Validating the deBruijn sequence:")
 validate(db)
-
+dbreversed = db[::-1]
+print(" ")
+print("Validating the reversed deBruijn sequence:")
+validate(dbreversed)
+dboverlaid = db[0:4443]+'.'+db[4444:]
+print(" ")
+print("Validating the overlaid deBruijn sequence:")
+validate(dboverlaid)
 
 
 

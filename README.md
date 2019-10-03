@@ -7,6 +7,8 @@ The Wikipedia article has a Python implementation of the main code.
 
 https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
-First validation working.
+Working. Just need to update RC.
+
+
 
 

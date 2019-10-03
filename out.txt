@@ -7,3 +7,13 @@ The last 130 digits of the de Bruijn sequence are: 89768986899696977697869796987
  
 Validating the deBruijn sequence:
   No errors found
+ 
+Validating the reversed deBruijn sequence:
+  No errors found
+ 
+Validating the overlaid deBruijn sequence:
+  4 errors found:
+  PIN number 1459  missing
+  PIN number 4591  missing
+  PIN number 5814  missing
+  PIN number 8145  missing
